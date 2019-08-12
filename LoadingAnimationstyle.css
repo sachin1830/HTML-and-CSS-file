@@ -1,0 +1,34 @@
+*{
+  margin: 0;padding: 0;
+}
+body{
+  margin-left: 50%;
+
+}
+.loading{
+  position: relative;
+  top: 100px;
+  border: 20px solid #fff;
+  border-top: 25px solid #155ee1;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  animation: spin 2s linear infinite;
+}
+.inloading{
+  position: relative;
+  width: 160px;
+  height: 160px;
+  border: 20px solid #fff;
+  border-bottom: 25px solid #155ee1;
+  border-radius: 50%;
+  animation: inspin 1s linear infinite;
+}
+@keyframes inspin {
+0%{transform: rotate(0deg);}
+100%{transform: rotate(-360deg);}
+}
+@keyframes spin {
+0%{transform: rotate(0deg);}
+100%{transform: rotate(360deg);}
+}

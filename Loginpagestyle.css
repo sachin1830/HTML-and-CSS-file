@@ -1,0 +1,71 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.grid-container{
+
+}
+.main-container{
+  height: 550px;
+  width: 900px;
+
+}
+body{
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-left: 200px;
+  border: none;
+  box-shadow: 5px 5px 10px #aca5a5;
+}
+form .image img{
+  position: relative;
+  left:450px;
+  text-align: center;
+  height: 200px;
+  width: 200px;
+  margin: 24px 0 12px 0;
+}
+input[type=text], input[type=password]
+{
+  width: auto;
+  border: none;
+  padding: 15px 25px;
+  outline: none;
+
+  display: inline-block;
+}
+.container{
+padding-top: 16px;
+}
+button{
+  position: relative;
+  left: 300px;
+  width: 400px;
+  height: 40px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  transition: 1s ;
+}
+button:hover{
+  width: 600px;
+  background-color: #1250ed;
+  color: #fff;
+}
+h1{
+  text-align: center;
+}
+.logo a img{
+  position: relative;
+  top: 30px;
+  left: 300px;
+  padding-left: 100px;
+  height: 30px;
+  width: 30px;
+  transition: 2s;
+  float: left;
+}
+.logo a img:hover{
+  transform: scale(2,2);
+}

@@ -1,0 +1,14 @@
+
+.image{
+  height:60px;
+  width: 100px;
+  object-fit: contain;
+  transition: width 2s ,height 2s,transform 2s;
+  display: block;
+  float: left;
+}
+.image:hover{
+   height: 70px;
+   width: 120px;
+    transform: rotate(360deg);
+}
